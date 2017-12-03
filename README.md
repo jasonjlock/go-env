@@ -22,14 +22,14 @@ cd go-env
 
 Start the Docker containers:
 
-> Running this step for the first time, Docker builds the container images.
+> Running this step for the first time builds the container images.
 > This process can take a while.
 
 ```
 docker-compose up
 ```
 
-this starts Nginx and Go containers. Nginx is reverser proxy
+this starts Nginx and Go containers. Nginx is a reverse proxy
 passing requests to the Go server.
 
 ## What Next
